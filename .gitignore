@@ -1,3 +1,6 @@
+# I hate macos finder
+.DS_Store
+
 # Logs
 logs
 *.log
