@@ -107,6 +107,7 @@
       { url: 'https://nikolenight.net', name: 'nikolenight.net' },
       { url: 'https://lark.gay', name: 'Lark Space' },
       { url: 'https://gender.solutions', name: 'Gender Solutions™'},
+      { url: 'https://foxriot.com/', name: 'Foxriot', image: './assets/foxriot-banner.png'},
     ];
 
     function init() {
@@ -135,7 +136,18 @@
       sites.forEach(site => {
         const link = document.createElement('a');
         link.href = site.url;
-        link.textContent = site.name;
+        
+        if (site.image) {
+          // Create and set up image
+          const img = document.createElement('img');
+          img.src = site.image;
+          img.alt = site.name;
+          link.appendChild(img);
+        } else {
+          // Just use text if no image
+          link.textContent = site.name;
+        }
+        
         container.appendChild(link);
       });
     }
