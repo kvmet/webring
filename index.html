@@ -1,167 +1,198 @@
 <!-- index.html -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GoodGirl.Club</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <style>
-  body {
-    font-family: 'JetBrains Mono', monospace;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    line-height: 1.6;
-  }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoodGirl.Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      body {
+        font-family: "JetBrains Mono", monospace;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.6;
+      }
 
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #000;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    margin: 1rem 0;
-  }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        margin: 1rem 0;
+      }
 
-  .sites-list {
-    margin-top: 2rem;
-  }
+      .sites-list {
+        margin-top: 2rem;
+      }
 
-  .sites-list a {
-    display: block;
-    padding: 0.5rem 0;
-    color: #000;
-    text-decoration: none;
-  }
+      .sites-list a {
+        display: block;
+        padding: 0.5rem 0;
+        color: #000;
+        text-decoration: none;
+      }
 
-  .sites-list a:hover {
-    text-decoration: underline;
-  }
+      .sites-list a:hover {
+        text-decoration: underline;
+      }
 
-  .join-info {
-    margin: 1rem 0;
-    padding: 1rem;
-    border: 2px dashed #000;
-    border-radius: 4px;
-  }
+      .join-info {
+        margin: 1rem 0;
+        padding: 1rem;
+        border: 2px dashed #000;
+        border-radius: 4px;
+      }
 
-  .join-info h2 {
-    margin-top: 0;
-  }
+      .join-info h2 {
+        margin-top: 0;
+      }
 
-  .join-info ol {
-    padding-left: 1.5rem;
-  }
+      .join-info ol {
+        padding-left: 1.5rem;
+      }
 
-  .join-info li {
-    margin-bottom: 0.5rem;
-  }
-</style>
-</head>
-<body>
-  <h1>GoodGirl.Club</h1>
-  
-  <p>
-    Welcome to the goodest webring on the web!
-    A <a href="https://en.wikipedia.org/wiki/Webring" target="_blank">webring</a> is a collection of websites linked together in a circular structure. 
-  </p>
+      .join-info li {
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GoodGirl.Club</h1>
 
-  <a href="#" class="button" onclick="goToRandom(); return false;">Visit a Random Site</a>
+    <p>
+      Welcome to the goodest webring on the web! A
+      <a href="https://en.wikipedia.org/wiki/Webring" target="_blank"
+        >webring</a
+      >
+      is a collection of websites linked together in a circular structure.
+    </p>
 
-  <div class="join-info">
-    <h2>Do you want to be a Good Girl?</h2>
-    <ol>
-      <li>Have a website (shocking, I know)</li>
-      <li>Be good™ (being a girl is optional)</li>
-      <li>Add this code to your site:
-        <pre><code class="code-block">
+    <a href="#" class="button" onclick="goToRandom(); return false;"
+      >Visit a Random Site</a
+    >
+
+    <div class="join-info">
+      <h2>Do you want to be a Good Girl?</h2>
+      <ol>
+        <li>Have a website (shocking, I know)</li>
+        <li>Be good™ (being a girl is optional)</li>
+        <li>
+          Add this code to your site:
+          <pre><code class="code-block">
 &lt;div&gt;
   &lt;a href="https://goodgirl.club?q=prev"&gt;← Previous&lt;/a&gt;
   &lt;a href="https://goodgirl.club"&gt;GoodGirl.Club Webring&lt;/a&gt;
   &lt;a href="https://goodgirl.club?q=next"&gt;Next →&lt;/a&gt;
 &lt;/div&gt;
         </code></pre>
-      </li>
-      <li>Create an issue or PR on the <a href="https://github.com/kvmet/webring" target="_blank" rel="noopener noreferrer">GitHub repo</a></li>
-    </ol>
-  </div>
+        </li>
+        <li>
+          Create an issue or PR on the
+          <a
+            href="https://github.com/kvmet/webring"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub repo</a
+          >
+        </li>
+      </ol>
+    </div>
 
-  <div class="sites-list">
-    <h2>Member Sites</h2>
-    <div id="sites-container"></div>
-  </div>
+    <div class="sites-list">
+      <h2>Member Sites</h2>
+      <div id="sites-container"></div>
+    </div>
 
-  <script>
-    const sites = [
-      { url: 'https://lark.gay', name: 'Lark Space' },
-      { url: 'https://gender.solutions', name: 'Gender Solutions™' },
-      { url: 'https://reykitty.me', name: 'reykitty.me' },
-      { url: 'https://foxriot.com/', name: 'Foxriot', image: './assets/foxriot-banner.png'},
-      { url: 'https://sunnishinez.neocities.org/', name: 'sunnishinez' },
-      { url: 'https://lillinet.neocities.org/', name: 'Lilli Net' },
-      { url: 'https://theaio.neocities.org/webring-entrance', name: 'aio'},
-    ];
+    <script>
+      const sites = [
+        { url: "https://lark.gay", name: "Lark Space" },
+        { url: "https://gender.solutions", name: "Gender Solutions™" },
+        { url: "https://reykitty.me", name: "reykitty.me" },
+        {
+          url: "https://foxriot.com/",
+          name: "Foxriot",
+          image: "./assets/foxriot-banner.png",
+        },
+        { url: "https://sunnishinez.neocities.org/", name: "sunnishinez" },
+        { url: "https://lillinet.neocities.org/", name: "Lilli Net" },
+        {
+          url: "https://theaio.neocities.org",
+          name: "aio",
+          entrance: "https://theaio.neocities.org/webring-entrance",
+        },
+      ];
 
-    function init() {
-      // Handle query parameters
-      const urlParams = new URLSearchParams(window.location.search);
-      const direction = urlParams.get('q');
-      const referrer = document.referrer;
+      function init() {
+        // Handle query parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const direction = urlParams.get("q");
+        const referrer = document.referrer;
 
-      if (direction && referrer) {
-        const currentIndex = sites.findIndex(site => referrer.includes(site.url));
-        if (currentIndex !== -1) {
-          let nextIndex;
-          if (direction === 'next') {
-            nextIndex = (currentIndex + 1) % sites.length;
-          } else if (direction === 'prev') {
-            nextIndex = (currentIndex - 1 + sites.length) % sites.length;
-          } else if (direction === 'rand') {
-            goToRandom();
+        if (direction && referrer) {
+          const currentIndex = sites.findIndex((site) =>
+            referrer.startsWith(site.url),
+          );
+          if (currentIndex !== -1) {
+            let nextIndex;
+            if (direction === "next") {
+              nextIndex = (currentIndex + 1) % sites.length;
+            } else if (direction === "prev") {
+              nextIndex = (currentIndex - 1 + sites.length) % sites.length;
+            } else if (direction === "rand") {
+              goToRandom();
+            }
+            window.location.href =
+              sites[nextIndex].entrance || sites[nextIndex].url;
           }
-          window.location.href = sites[nextIndex].url;
         }
+
+        // Render site list
+        const container = document.getElementById("sites-container");
+        sites.forEach((site) => {
+          const link = document.createElement("a");
+          link.href = site.url;
+
+          if (site.image) {
+            // Create and set up image
+            const img = document.createElement("img");
+            img.src = site.image;
+            img.alt = site.name;
+            link.appendChild(img);
+          } else {
+            // Just use text if no image
+            link.textContent = site.name;
+          }
+
+          container.appendChild(link);
+        });
       }
 
-      // Render site list
-      const container = document.getElementById('sites-container');
-      sites.forEach(site => {
-        const link = document.createElement('a');
-        link.href = site.url;
-        
-        if (site.image) {
-          // Create and set up image
-          const img = document.createElement('img');
-          img.src = site.image;
-          img.alt = site.name;
-          link.appendChild(img);
-        } else {
-          // Just use text if no image
-          link.textContent = site.name;
-        }
-        
-        container.appendChild(link);
-      });
-    }
+      function goToRandom() {
+        const randomIndex = Math.floor(Math.random() * sites.length);
+        window.location.href = sites[randomIndex].url;
+      }
 
-    function goToRandom() {
-      const randomIndex = Math.floor(Math.random() * sites.length);
-      window.location.href = sites[randomIndex].url;
-    }
-
-    // Initialize when page loads
-    init();
-  </script>
-</body>
+      // Initialize when page loads
+      init();
+    </script>
+  </body>
 </html>
